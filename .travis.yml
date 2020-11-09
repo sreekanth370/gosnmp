@@ -3,9 +3,8 @@ arch:
 - amd64
 - ppc64le
 go:
-- "1.13"
-- "1.14"
-
+- 1.15
+- 1.16
 env:
   global:
     - GOSNMP_TARGET=127.0.0.1

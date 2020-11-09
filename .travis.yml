@@ -4,7 +4,7 @@ arch:
 - ppc64le
 go:
 - 1.15
-- 1.16
+- 1.14
 env:
   global:
     - GOSNMP_TARGET=127.0.0.1
